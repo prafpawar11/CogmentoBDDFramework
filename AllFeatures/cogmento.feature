@@ -11,3 +11,10 @@ Feature: Test Cogmento CRM application
     When user is on home page and validate home page title
     And validate home page url
     And validate home page logo
+
+  #Gauri Automation test Engineer
+  Scenario: Create user account
+    Given user click on contact link
+    Then user click on create create button
+    Then user enters Firstname Last
+    And click on save button
