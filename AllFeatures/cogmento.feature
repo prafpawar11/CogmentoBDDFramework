@@ -18,3 +18,9 @@ Feature: Test Cogmento CRM application
     Then user click on create create button
     Then user enters Firstname Last
     And click on save button
+
+  #Sarita Automation test Engineer
+  Scenario: Test Deals Page
+    Given User click on deals link
+    Then user enters title
+    And click on Deals save button
